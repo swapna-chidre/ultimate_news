@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- angular.min.js 1.4.5 -->
+    <script src="js/angular/angular.min.js" data-semver="1.4.5"></script>
+    <!-- angular-route.min.js -->
+    <script src="js/angular/angular-route.min.js" data-semver="1.4.5"></script>
+    <title>REDLA NEWS</title>
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/news.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="index">
+    <div id="wrapper">
+        <div id="news-india">
+            <div class="new-content text-center">
+                <br>
+                <h4 class="no-margin">
+                    <a href="index.html"><i class="fa fa-th-large fa-2x"></i> <br>NEWS</a>
+                 </h4>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 no-padding">
+                            <div class="modal-body">
+                                <h2 class="text-center">INDIA</h2>
+                                <hr class="star-primary">
+                                <div role="tabpanel">
+                                    <nav class="navbar navbar-default navbar-top" role="navigation">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                            <ul class="nav navbar-nav" role="tablist">
+                                                <li role="presentation" class="active">
+                                                    <a href="#canada-general" aria-controls="canada-general" role="tab" data-toggle="tab">General</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#canada-business" aria-controls="canada-business" role="tab" data-toggle="tab">Business</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#canada-entertainment" aria-controls="canada-entertainment" role="tab" data-toggle="tab">Entertainment</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#canada-sports" aria-controls="canada-sports" role="tab" data-toggle="tab">Sports</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </nav>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="canada-general">
+                                            <div class="panel panel-default">
+                                                <div class="">
+                                                    <div class="panel-body text-left ">
+                                                        <h4 class="text-left text-danger">General <span class="hidden-xs">News Headlines</span> - <small>18 Sept</small></h4>
+                                                        <hr>
+                                                        <!-- start sw-rss-feed code -->
+                                                        <script type="text/javascript">
+                                                        <!-- 
+                                                        rssfeed_url = new Array();
+                                                        rssfeed_url[0] = "http://timesofindia.indiatimes.com/rssfeeds/-2128816011.cms";
+                                                        rssfeed_url[1] = "http://timesofindia.indiatimes.com/rssfeeds/-2128839596.cms";
+                                                        rssfeed_url[2] = "http://timesofindia.indiatimes.com/rssfeeds/2950623.cms";
+                                                        rssfeed_url[3] = "http://timesofindia.indiatimes.com/rssfeeds/-2128830821.cms";
+                                                        rssfeed_url[4] = "http://timesofindia.indiatimes.com/rssfeeds/-2128833038.cms";
+                                                        rssfeed_frame_width = "100%";
+                                                        rssfeed_frame_height = "420px";
+                                                        rssfeed_scroll = "pn";
+                                                        rssfeed_scroll_step = "6";
+                                                        rssfeed_scroll_bar = "on";
+                                                        rssfeed_target = "_blank";
+                                                        rssfeed_font_size = "15";
+                                                        rssfeed_font_face = "";
+                                                        rssfeed_border = "on";
+                                                        rssfeed_css_url = "";
+                                                        //rssfeed_title = "on";
+                                                        //rssfeed_title_name = " News From Hyderabad,Delhi,Chennai,Bangalore,Kolkata";
+                                                        rssfeed_title_bgcolor = "#335489";
+                                                        rssfeed_title_color = "#fff";
+                                                        rssfeed_title_bgimage = "http://";
+                                                        rssfeed_footer = "off";
+                                                        rssfeed_footer_name = "rss feed";
+                                                        rssfeed_footer_bgcolor = "#fff";
+                                                        rssfeed_footer_color = "#333";
+                                                        rssfeed_footer_bgimage = "http://";
+                                                        rssfeed_item_title_length = "50";
+                                                        rssfeed_item_title_color = "#666";
+                                                        rssfeed_item_bgcolor = "#fff";
+                                                        rssfeed_item_bgimage = "http://";
+                                                        rssfeed_item_border_bottom = "on";
+                                                        rssfeed_item_source_icon = "off";
+                                                        rssfeed_item_date = "off";
+                                                        rssfeed_item_description = "on";
+                                                        rssfeed_item_description_length = "120";
+                                                        rssfeed_item_description_color = "#666";
+                                                        rssfeed_item_description_link_color = "#333";
+                                                        rssfeed_item_description_tag = "off";
+                                                        rssfeed_no_items = "0";
+                                                        rssfeed_cache = "4a9c54a0ae4efb7f66a87fdd9088c63f";
+                                                        //-->
+                                                        </script>
+                                                        <script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="canada-business">
+                                            <div class="panel panel-default">
+                                                <div class="">
+                                                    <div class="panel-body text-left">
+                                                        <h4 class="text-left text-danger">Business <span class="hidden-xs">News Headlines</span> - <small>18 Sept</small></h4>
+                                                        <hr>
+                                                        <!-- start sw-rss-feed code -->
+                                                        <script type="text/javascript">
+                                                        <!-- 
+                                                        rssfeed_url = new Array();
+                                                        rssfeed_url[0] = "http://timesofindia.indiatimes.com/rssfeeds/1898055.cms";
+                                                        rssfeed_frame_width = "100%";
+                                                        rssfeed_frame_height = "420px";
+                                                        rssfeed_scroll = "off";
+                                                        rssfeed_scroll_step = "6";
+                                                        rssfeed_scroll_bar = "on";
+                                                        rssfeed_target = "_blank";
+                                                        rssfeed_font_size = "15";
+                                                        rssfeed_font_face = "";
+                                                        rssfeed_border = "on";
+                                                        rssfeed_css_url = "";
+                                                        //rssfeed_title="on"; 
+                                                        //rssfeed_title_name=""; 
+                                                        rssfeed_title_bgcolor = "#3366ff";
+                                                        rssfeed_title_color = "#fff";
+                                                        rssfeed_title_bgimage = "http://";
+                                                        rssfeed_footer = "off";
+                                                        rssfeed_footer_name = "rss feed";
+                                                        rssfeed_footer_bgcolor = "#fff";
+                                                        rssfeed_footer_color = "#333";
+                                                        rssfeed_footer_bgimage = "http://";
+                                                        rssfeed_item_title_length = "50";
+                                                        rssfeed_item_title_color = "#666";
+                                                        rssfeed_item_bgcolor = "#fff";
+                                                        rssfeed_item_bgimage = "http://";
+                                                        rssfeed_item_border_bottom = "on";
+                                                        rssfeed_item_source_icon = "off";
+                                                        rssfeed_item_date = "off";
+                                                        rssfeed_item_description = "on";
+                                                        rssfeed_item_description_length = "120";
+                                                        rssfeed_item_description_color = "#666";
+                                                        rssfeed_item_description_link_color = "#333";
+                                                        rssfeed_item_description_tag = "off";
+                                                        rssfeed_no_items = "0";
+                                                        rssfeed_cache = "d96533b672576b627b594cabfc0d513f";
+                                                        //-->
+                                                        </script>
+                                                        <script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="canada-entertainment">
+                                            <div class="panel panel-default">
+                                                <div class="">
+                                                    <div class="panel-body ">
+                                                        <h4 class="text-left text-danger">Entertainment <span class="hidden-xs">News Headlines</span> - <small>18 Sept</small></h4>
+                                                        <hr>
+                                                        <!-- start sw-rss-feed code -->
+                                                        <script type="text/javascript">
+                                                        <!-- 
+                                                        rssfeed_url = new Array();
+                                                        rssfeed_url[0] = "http://timesofindia.indiatimes.com/rssfeedsvideo/3812908.cms";
+                                                        rssfeed_frame_width = "100%";
+                                                        rssfeed_frame_height = "420px";
+                                                        rssfeed_scroll = "off";
+                                                        rssfeed_scroll_step = "6";
+                                                        rssfeed_scroll_bar = "on";
+                                                        rssfeed_target = "_blank";
+                                                        rssfeed_font_size = "15";
+                                                        rssfeed_font_face = "";
+                                                        rssfeed_border = "on";
+                                                        rssfeed_css_url = "";
+                                                        //rssfeed_title="on"; 
+                                                        //rssfeed_title_name=""; 
+                                                        rssfeed_title_bgcolor = "#3366ff";
+                                                        rssfeed_title_color = "#fff";
+                                                        rssfeed_title_bgimage = "http://";
+                                                        rssfeed_footer = "off";
+                                                        rssfeed_footer_name = "rss feed";
+                                                        rssfeed_footer_bgcolor = "#fff";
+                                                        rssfeed_footer_color = "#333";
+                                                        rssfeed_footer_bgimage = "http://";
+                                                        rssfeed_item_title_length = "50";
+                                                        rssfeed_item_title_color = "#666";
+                                                        rssfeed_item_bgcolor = "#fff";
+                                                        rssfeed_item_bgimage = "http://";
+                                                        rssfeed_item_border_bottom = "on";
+                                                        rssfeed_item_source_icon = "off";
+                                                        rssfeed_item_date = "off";
+                                                        rssfeed_item_description = "on";
+                                                        rssfeed_item_description_length = "120";
+                                                        rssfeed_item_description_color = "#666";
+                                                        rssfeed_item_description_link_color = "#333";
+                                                        rssfeed_item_description_tag = "off";
+                                                        rssfeed_no_items = "0";
+                                                        rssfeed_cache = "6fd91288b362e0614a3a9092736556fe";
+                                                        //-->
+                                                        </script>
+                                                        <script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="canada-sports">
+                                            <div class="panel panel-default">
+                                                <div class="">
+                                                    <div class="panel-body ">
+                                                        <h4 class="text-left text-danger">Sports <span class="hidden-xs">News Headlines</span> - <small>18 Sept</small></h4>
+                                                        <hr>
+                                                        <!-- start sw-rss-feed code -->
+                                                        <script type="text/javascript">
+                                                        <!-- 
+                                                        rssfeed_url = new Array();
+                                                        rssfeed_url[0] = "http://timesofindia.indiatimes.com/rssfeeds/4719148.cms";
+                                                        rssfeed_frame_width = "100%";
+                                                        rssfeed_frame_height = "420px";
+                                                        rssfeed_scroll = "off";
+                                                        rssfeed_scroll_step = "6";
+                                                        rssfeed_scroll_bar = "on";
+                                                        rssfeed_target = "_blank";
+                                                        rssfeed_font_size = "15";
+                                                        rssfeed_font_face = "";
+                                                        rssfeed_border = "on";
+                                                        rssfeed_css_url = "";
+                                                        // rssfeed_title = "on";
+                                                        // rssfeed_title_name = "";
+                                                        rssfeed_title_bgcolor = "#3366ff";
+                                                        rssfeed_title_color = "#fff";
+                                                        rssfeed_title_bgimage = "http://";
+                                                        rssfeed_footer = "off";
+                                                        rssfeed_footer_name = "rss feed";
+                                                        rssfeed_footer_bgcolor = "#fff";
+                                                        rssfeed_footer_color = "#333";
+                                                        rssfeed_footer_bgimage = "http://";
+                                                        rssfeed_item_title_length = "50";
+                                                        rssfeed_item_title_color = "#666";
+                                                        rssfeed_item_bgcolor = "#fff";
+                                                        rssfeed_item_bgimage = "http://";
+                                                        rssfeed_item_border_bottom = "on";
+                                                        rssfeed_item_source_icon = "off";
+                                                        rssfeed_item_date = "off";
+                                                        rssfeed_item_description = "on";
+                                                        rssfeed_item_description_length = "120";
+                                                        rssfeed_item_description_color = "#666";
+                                                        rssfeed_item_description_link_color = "#333";
+                                                        rssfeed_item_description_tag = "off";
+                                                        rssfeed_no_items = "0";
+                                                        rssfeed_cache = "234387faab915375a9d06cec59e29933";
+                                                        //-->
+                                                        </script>
+                                                        <script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                <h4 class="no-margin">
+                    <a href="index.html"><i class="fa fa-th-large fa-2x"></i> <br>NEWS</a>
+                 </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; redlainc.com 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/newsapp.js"></script>
+    <script src="js/newscontroller.js"></script>
+    <!--<script src="js/freelancer.js"></script> -->
+    <script>
+    </script>
+</body>
+
+</html>
